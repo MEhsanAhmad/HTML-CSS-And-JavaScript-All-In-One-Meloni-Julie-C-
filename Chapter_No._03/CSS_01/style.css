@@ -18,8 +18,60 @@ body{
     line-height: 14pt;
     padding-left: 5pt;
     padding-right: 5pt;
-    padding-bottom: 5pt;
     padding-top: 5pt;
 }
 
+h1{
+    font: 14pt;
+    font-weight: bold;
+    line-height: 20pt;
+    padding: 5pt;
+    margin: 5px;
+}
 
+#img01{
+    padding: 3pt;
+    float: inline-end;
+    width: 35vh;
+    border-radius: 20pt;
+}
+
+#img02{
+    padding: 3pt;
+    float: right;
+    width: 35vh;
+    border-radius: 20pt;
+}
+
+a{
+    text-decoration: none;
+    background-color: blanchedalmond;
+    margin: 15px;
+    font-weight: bold;
+}
+
+a:link, a:visited{
+    color: #8094d6;
+}
+
+
+a:hover, a:active {
+    color: #FF9933;
+}
+
+div.footer {
+    font-size: 9pt;
+    font-style: italic;
+    line-height: 12pt;
+    text-align: center;
+    padding: 20px;
+    background-color: red;
+    color: aliceblue;
+    align-items: center;
+    margin-top: 45px;
+}
+
+p{
+    font-size:  15px;
+    margin: 7px;
+}
