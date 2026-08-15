@@ -21,3 +21,50 @@ website in (Web contant)
 
 A browser request and a server response.
 
+Selecting a Web Hosting Provider
+
+    Reliability/server “uptime”
+    Customer service
+    Server space
+    Bandwidth
+    Domain name purchase and management
+    Price
+
+best hosting companies:
+    A Small Orange (http://www.asmallorange.com)
+     DailyRazor (http://www.dailyrazor.com)
+     LunarPages (http://www.lunarpages.com)
+
+test your website on differ browser:
+    Apple Safari (http://www.apple.com/safari/)
+    Google Chrome (http://www.google.com/chrome)
+    Mozilla Firefox (http://www.mozilla.com/firefox/)
+    Mozilla Firefox (http://www.mozilla.com/firefox/)
+    Opera (http://www.opera.com/)
+
+Using FTP to Transfer Files
+    File Transfer Protocol (FTP)
+
+FTP clients require three pieces of information to connect to your web server; this information will have been sent to you by your hosting provider
+after you set up your account:
+. The hostname, or address, to which you will connect
+. Your account username
+. Your account password
+
+Selecting an FTP Client
+
+FireFTP --> Firefox web browser
+
+
+Here are some popular free FTP clients:
+. Classic FTP (http://www.nchsoftware.com/classic/) for Mac and
+Windows
+. Cyberduck (http://cyberduck.ch/) for Mac
+. Fetch (http://fetchsoftworks.com/) for Mac
+. FileZilla (http://filezilla-project.org/) for all platforms
+. FireFTP (http://fireftp.mozdev.org/) Firefox extension for all platforms
+
+
+Using an Index Page -> Default file of website
+
+
