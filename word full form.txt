@@ -1,0 +1,13 @@
+Internet service provider (ISP)
+file Transfer Protocol (FTP)
+Hypertext Markup language (HTML)
+.jsp (Java Server Pages)
+.asp (Microsoft Active Server Pages)
+.php (PHP: Hypertext Preprocessor)
+World Wide Web Consortium (W3C)
+XML (Extensible Markup Language)
+BCCML (Bottle Cap Collection Markup Language)
+
+
+
+

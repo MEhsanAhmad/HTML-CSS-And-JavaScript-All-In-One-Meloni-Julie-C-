@@ -1,0 +1,31 @@
+***** Chapter No. 02 *****
+Understanding HTML and XHTML Connections
+
+WHAT YOU’LL LEARN IN
+THIS CHAPTER:
+. How to create a simple
+web page in HTML
+. How to include all the HTML Tags that every web page must have
+. How to organize a page with paragraphs and line breaks
+. How to organize your content with headings
+. How to validate your web
+content
+. How to differentiate between HTML, XML, XHTML, and HTML5
+
+
+
+Tag Function
+    <html>...</html> Encloses the entire HTML document.
+    <head>...</head> Encloses the head of the HTML document. Used within the <html> tag pair.
+    <title>...</title> Indicates the title of the document. Used within the <head> tag pair.
+    <body>...</body> Encloses the body of the HTML document. Used within the <html> tag pair.
+    <p>...</p> A paragraph; skips a line between paragraphs.
+    <br /> A line break.
+    <hr /> A horizontal rule line.
+    <h1>...</h1> A first-level heading.
+    <h2>...</h2> A second-level heading.
+    <h3>...</h3> A third-level heading.
+    <h4>...</h4> A fourth-level heading (seldom used).
+    <h5>...</h5> A fifth-level heading (seldom used).
+    <h6>...</h6> A sixth-level heading (seldom used).
+
