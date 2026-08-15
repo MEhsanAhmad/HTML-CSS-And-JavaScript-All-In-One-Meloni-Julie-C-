@@ -1,0 +1,23 @@
+Website build with:
+    HTML (Hypertext Markup Language)
+    CSS (Cascading Style Sheets)
+    JavaScript
+
+A Brief History of HTML and the World Wide Web
+
+1990 start internet 
+
+Hypertext --> text store in electronic form with cross reference between pages.
+
+Hypertext Markup Language is
+a language for describing how text, graphics, and files containing other
+information are organized and linked together
+
+By 1993, only 100 or so computers throughout the world were equipped to serve up HTML pages
+
+HTML & XHTML
+
+website in (Web contant)
+
+A browser request and a server response.
+
