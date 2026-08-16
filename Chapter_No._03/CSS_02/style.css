@@ -1,11 +1,79 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body{
     
     background-color: #222;
+    color: white;
+    margin: 5pt;
+}
+
+.main{
+    background-color: #fff;
+    text-align: center;
+    color: black;
+    border: 6px white solid;
+    border-bottom: green 16px solid;
+    border-left: red 16px solid;
+    border-top: black 16px solid;
+    margin: 15px;
+}
+
+#main_id{
+    border-style: dashed;
+}
+
+#main_id1{
+    border-style: groove;
+}
+
+#main_id2{
+    border-style: dotted;
+}
+
+#main_id3{
+    border-style: double;
+}
+
+img{
+    height: 30vh;
+    width: 30wh;
+    float: right;
+}
+
+pre{
+    color: aqua;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+
+}
+
+#testid{
+    display: block;
     
+}
+
+a{
+    display: grid;
+    text-decoration: none;
+    border-radius: 5px solid antiquewhite;
+
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+#footer {
+    color: #000;
 }

@@ -1,3 +1,44 @@
 ***** CHAPTER 3 *****
 
 Understanding Cascading Style Sheets
+
+Display:
+. block—The element is displayed on a new line, as in a new paragraph.
+. list-item—The element is displayed on a new line with a list-item mark (bullet) next to it.
+. inline—The element is displayed inline with the current paragraph.
+. none—The element is not displayed; it is hidden.
+
+show measurement:
+. in—Inches
+. cm—Centimeters
+. mm—Millimeters
+. px—Pixels
+. pt—Points
+
+
+the borders of an element:
+. border-width—The width of the border edge
+. border-color—The color of the border edge
+. border-style—The style of the border edge
+. border-left—The left side of the border
+. border-right—The right side of the border
+. border-top—The top of the border
+. border-bottom—The bottom of the border
+. border—All the border sides
+
+The border-style property can be set to any of the following values:
+. solid—A single-line border
+. double—A double-line border
+. dashed—A dashed border
+. dotted—A dotted border
+. groove—A border with a groove appearance
+. ridge—A border with a ridge appearance
+. inset—A border with an inset appearance
+. outset—A border with an outset appearance
+. none—No border
+
+ fonts:
+. font-family—The family of the font
+. font-size—The size of the font
+. font-style—The style of the font (normal or italic)
+. font-weight—The weight of the font (light, medium, bold, and so on)
