@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #222;
+        color: aliceblue;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <p><b>Chemistry</b>: H<sub>2</sub>O</p>
+    <p><b>Math</b>: a<sup>2</sup>+ b<sup>2</sup>+c<sup>2</sup></p>
+    <p>
+      This is <b>bold</b> & <i>Italic</i> but that is more <em>Italic</em> when
+      is write <strong>LHR</strong> that mean <i>Lahore </i
+      ><q>Lahore is best city in <b>Pakistan</b>. </q>
+    </p>
+    <p style="font-weight: bold; font-style: italic">
+      This paragraph is bold and italic.
+    </p>
+    <ul>
+      <li>Infomation</li>
+      <li>knowledge</li>
+      <li>Education</li>
+    </ul>
+
+    <ol>
+      <li>Matric</li>
+      <li>inter</li>
+      <li>BS</li>
+      <li>M Phil</li>
+      <li>Ph D</li>
+    </ol>
+
+    <pre>
+        THis is my new table:
+        Sr No.          name                City            Rigion
+        01              Pakistan            Lahore          Asia
+        02              Austria             Nill            Europ
+        03              Egypt               Cairo           Africa
+        04              Brazil              Sau polu        South Amarica
+    </pre>
+
+    <font size="5" color="red">this is font tag.</font>
+    <hr />
+    <script>
+      let now = new Date();
+
+      let localtime = now.toString();
+      let utctime = now.getUTCFullYear();
+      let local = now.getTimezoneOffset().toString();
+      let day = now.getUTCDate();
+      document.write(localtime + "</br>");
+      document.write(utctime + "</br>");
+      document.write(localtime + "</br>");
+      document.write(local + "</br>");
+      document.write("Today Date: " + day + "</br>");
+    </script>
+
+    <pre>This is chapter 05: first project.</pre>
+  </body>
+</html>
