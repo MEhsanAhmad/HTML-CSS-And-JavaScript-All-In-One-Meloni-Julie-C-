@@ -16,6 +16,35 @@
         color: aliceblue;
         padding: 5px;
       }
+
+      #last {
+        display: block;
+        text-align: center;
+        background-color: bisque;
+        color: #000;
+        font-weight: bold;
+        padding: 11px;
+        font-size: 12px;
+        position: flex;
+        margin-bottom: 5px;
+      }
+
+      p {
+        font-size: 21px;
+        margin: 10px;
+      }
+
+      pre {
+        font-size: 21px;
+        margin: 8px;
+        font-family:
+          "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+
+      .time {
+        text-align: center;
+      }
     </style>
   </head>
   <body>
@@ -61,13 +90,17 @@
       let utctime = now.getUTCFullYear();
       let local = now.getTimezoneOffset().toString();
       let day = now.getUTCDate();
-      document.write(localtime + "</br>");
+      document.write("<p class='time' >" + localtime + "</br> </p>");
+      document.write("<p class='time' >" + utctime + "</br> </p>");
+      document.write("<p class='time' >" + local + "</br> </p>");
+      document.write("<p class='time' >" + day + "</br> </p>");
+
       document.write(utctime + "</br>");
       document.write(localtime + "</br>");
       document.write(local + "</br>");
       document.write("Today Date: " + day + "</br>");
     </script>
 
-    <pre>This is chapter 05: first project.</pre>
+    <pre id="last">This is chapter 05: first project.</pre>
   </body>
 </html>
