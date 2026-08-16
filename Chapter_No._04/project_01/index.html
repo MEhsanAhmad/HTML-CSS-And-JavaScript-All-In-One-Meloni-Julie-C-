@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Date and Time</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Current Date and Time</h1>
+
+    <!-- <p id="time"></p> -->
+
+    <script>
+        let now = new Date();
+
+        let localtime = now.toString();
+        let utctime = now.toGMTString();
+
+        document.write("<strong>Local time:</strong> " + localtime + "<br>");
+        document.write("<strong>UTC time:</strong> " + utctime);
+
+        // alert(now);
+    </script>
+
+</body>
+</html>

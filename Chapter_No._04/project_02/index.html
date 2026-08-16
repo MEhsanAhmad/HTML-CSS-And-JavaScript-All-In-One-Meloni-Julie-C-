@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Current Time & Date</h1>
+
+
+    <script>
+        let now = new Date();
+        let localtime = now.toString();
+        let utctime = now.toGMTString();
+        document.write("<strong>Local time:</strong> " + localtime + "<br>");
+        document.write("<strong>UTC time:</strong> " + utctime);
+        let hours = now.getHours();
+        let mins = now.getMinutes();
+        let seconds = now.getSeconds(); 
+
+        document.write("<h1>" + hours + ":" + mins + ":" + seconds + "<br>" + "</h1>");
+        
+    </script>
+</body>
+</html>
